@@ -13,12 +13,12 @@ const _renderLinkItem = (props: any) => {
     <li
       onClick={() => handleNavigate(props._url)}
       className={`relative flex items-center py-3 justify-center
-         hover:text-[#64331d] cursor-pointer text-sm rounded-[10px] font-ttfirs ${
+         hover:text-[#67ffff] cursor-pointer text-sm rounded-full font-ttfirs ${
            props._url === "/home" && props._url === props.pathname
-             ? "bg-[#e0d6d2] text-[#64331d] border-none px-5"
+             ? "bg-gradient-to-r from-red-400 via-yellow-400 to-red-700 text-[#67ffff] border-none px-5"
              : props._url !== "/home" && props.pathname.includes(props._url)
-             ? "bg-[#e0d6d2] text-[#64331d] border-none px-5"
-             : "text-black px-5"
+             ? "bg-gradient-to-r from-red-400 via-yellow-400 to-red-700 text-[#67ffff] border-none px-5"
+             : "text-[#8aff46] px-5"
          }`}
     >
       <div className="text-lg">{props._name}</div>
