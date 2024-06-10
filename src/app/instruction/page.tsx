@@ -313,7 +313,7 @@ export default function Instruction() {
                         href="/nfts"
                         className="text-white text-xl mb-5 hover:underline"
                       >
-                        Welcome to SASSY THE MF SASQUATCH!
+                        Welcome to PUSSIN BOOTS!
                       </Link>
                       <br />
                       Your Phantom wallet is ready to use. You can get started
