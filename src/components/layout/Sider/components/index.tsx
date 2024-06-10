@@ -18,7 +18,7 @@ const _renderLinkItem = (props: any) => {
              ? "bg-gradient-to-r from-red-400 via-yellow-400 to-red-700 text-[#67ffff] border-none px-5"
              : props._url !== "/home" && props.pathname.includes(props._url)
              ? "bg-gradient-to-r from-red-400 via-yellow-400 to-red-700 text-[#67ffff] border-none px-5"
-             : "text-[#8aff46] px-5"
+             : "text-white px-5"
          }`}
     >
       <div className="text-lg">{props._name}</div>

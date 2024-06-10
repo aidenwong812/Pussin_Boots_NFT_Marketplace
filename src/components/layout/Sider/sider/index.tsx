@@ -12,7 +12,7 @@ const SiderList = (props: any) => {
 
   return (
     <>
-      <ul className="flex text-[#FEDB33] text-md mt-[10px] overflow-auto mx-auto gap-2 my-0">
+      <ul className="flex text-white text-md mt-[10px] overflow-auto mx-auto gap-2 my-0">
         <ListComponent
           _name="Marketplace"
           _icon="/icon/marketplace.svg"
