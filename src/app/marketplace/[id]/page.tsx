@@ -71,7 +71,7 @@ const NFT = ({ params: { id } }) => {
             </div>
           </div>
           <div className="w-full pb-[30px] overflow-auto h-full">
-            <div className="w-full flex flex-col justify-center items-center overflow-auto gridWidth:h-full gap-[100px]">
+            <div className="w-full flex flex-col justify-center items-center overflow-auto gridWidth:h-full gap-[50px]">
               <div className="gridWidth:flex gridWidth:flex-row gridWidth:gap-[40px] overflow-auto">
                 <div className="flex flex-col gap-[30px] w-[380px] flex-none justify-between mb-[50px] gridWidth:mb-0">
                   <div className="w-full flex-1">
